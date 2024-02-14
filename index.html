@@ -10,20 +10,20 @@
 
 <body>
  
-        <article class="contant">
+        <article class="content">
 
             <section class="section">
 
                 <div class="container">
 
-                    <h1 class="contant__title">
+                    <h1 class="content__title">
                         Отступы в вёрстке: margin и padding
                     </h1>
-                    <p class="contant__text">
+                    <p class="content__text">
                         В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей читаемости вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения в любую его часть. При этом другие части кода продолжат нормально работать.
                     </p>
             
-                    <p class="contant__text">
+                    <p class="content__text">
                         Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более опытных верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.
                     </p>
                 </div>
@@ -64,50 +64,50 @@
                             Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.
                         </h2>
 
-                        <div class="section__contant">
+                        <div class="section__content">
 
                             <img src="./img/image1.jpg" alt="" class="section__img section__img_special ">
 
-                            <div class="contant__text-wrap">
+                            <div class="content__text-wrap">
 
-                                <p class="contant__text">
-                                    <span class="contant__text contant__text_style_upper">ВАЖНО:</span> <span class="contant__text contant__text_style_italic
+                                <p class="content__text">
+                                    <span class="content__text content__text_style_upper">ВАЖНО:</span> <span class="content__text content__text_style_italic
                                     ">margin</span> всегда задают от предыдущего элемента к следующему.
                                 </p>
 
-                                <p class="contant__text">
-                                    Свойство <span class="contant__text contant__text_style_italic
-                                    ">margin</span> необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется <span class="contant__text contant__text_style_italic
-                                    ">margin-right</span> и <span class="contant__text contant__text_style_italic
+                                <p class="content__text">
+                                    Свойство <span class="content__text content__text_style_italic
+                                    ">margin</span> необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется <span class="content__text content__text_style_italic
+                                    ">margin-right</span> и <span class="content__text content__text_style_italic
                                     ">margin-bottom</span>.
                                 </p>
 
-                                <p class="contant__text">
-                                    (!) Свойства <span class="contant__text contant__text_style_italic
-                                    ">margin-left</span> и <span class="contant__text contant__text_style_italic
+                                <p class="content__text">
+                                    (!) Свойства <span class="content__text content__text_style_italic
+                                    ">margin-left</span> и <span class="content__text content__text_style_italic
                                     ">margin-top</span> используются крайне редко.
                                 </p>
 
-                                <p class="contant__text">
-                                    Для <span class="contant__text contant__text_style_italic
+                                <p class="content__text">
+                                    Для <span class="content__text content__text_style_italic
                                     ">padding</span> верно обратное. Исключением является его применения в декоративных целях, например, для увеличения области ссылки.
                                 </p>
                             </div>
                         </div>
             
-                        <div class="section__contant">
+                        <div class="section__content">
 
-                            <div class="contant__text-wrap">
+                            <div class="content__text-wrap">
 
-                                <p class="contant__text">
-                                    Отступ внутри блока сверху или слева реализуется через<span class="contant__text contant__text_style_italic
-                                    "> padding-top</span> и <span class="contant__text contant__text_style_italic
+                                <p class="content__text">
+                                    Отступ внутри блока сверху или слева реализуется через<span class="content__text content__text_style_italic
+                                    "> padding-top</span> и <span class="content__text content__text_style_italic
                                     ">padding-left</span> родителя.
                                 </p>
-                                <p class="contant__text">
+                                <p class="content__text">
                                     Отступы, как правило, делают в направлении от предыдущего элемента к следующему. Так элемент не будет толкать сам себя.
                                 </p>
-                                <p class="contant__text">
+                                <p class="content__text">
                                     Изначально элемент статичен, а его положение может меняться только под воздействием свойств других блоков или свойств родителя.
                                 </p>
                             </div>
@@ -142,13 +142,13 @@
                         <figure class="section__figure">
                             <img  class="section__img section__img_mb_0" src="./img/image5.jpg" alt="">
             
-                            <figcaption class="section__figcaption"><span class="contant__text contant__text_style_upper">ВАЖНО: </span>здесь <span class="contant__text contant__text_style_italic
+                            <figcaption class="section__figcaption"><span class="content__text content__text_style_upper">ВАЖНО: </span>здесь <span class="content__text content__text_style_italic
                                 ">.list-item</span> — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</figcaption>
                         </figure>
 
-                        <p class="contant__text">
-                            Казалось бы, можно задать отступ параграфу <span class="contant__text contant__text_style_italic
-                            ">&lt;p&gt;</span>, либо обёртке  <span class="contant__text contant__text_style_italic
+                        <p class="content__text">
+                            Казалось бы, можно задать отступ параграфу <span class="content__text content__text_style_italic
+                            ">&lt;p&gt;</span>, либо обёртке  <span class="content__text content__text_style_italic
                             ">&lt;article&gt;</span> для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.
                         </p>
 
@@ -158,18 +158,18 @@
 
                         <img src="./img/image6.jpg" alt="" class="section__img">
 
-                        <p class="contant__text">
-                            В случае с заголовком, если ему необходим отступ сверху, последним элементом будет <span class="contant__text contant__text_style_italic
-                            ">section</span>. Именно для него задается <span class="contant__text contant__text_style_italic
-                            ">padding-top</span>, а не <span class="contant__text contant__text_style_italic
-                            ">div</span> с классом <span class="contant__text contant__text_style_italic
-                            ">container</span>. Свойства <span class="contant__text contant__text_style_italic
+                        <p class="content__text">
+                            В случае с заголовком, если ему необходим отступ сверху, последним элементом будет <span class="content__text content__text_style_italic
+                            ">section</span>. Именно для него задается <span class="content__text content__text_style_italic
+                            ">padding-top</span>, а не <span class="content__text content__text_style_italic
+                            ">div</span> с классом <span class="content__text content__text_style_italic
+                            ">container</span>. Свойства <span class="content__text content__text_style_italic
                             ">margin</span>, которые стоят по умолчанию необходимо обнулить.
                         </p>
                         
                         <img src="./img/image7.jpg" alt="" class="section__img">
 
-                        <p class="contant__text">
+                        <p class="content__text">
                             Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.
                         </p>
 
@@ -185,10 +185,10 @@
 
                         <h3 class="section__subtitle">Для наглядности возьмём наш предыдущий пример с рецептами</h3>
 
-                        <ul class="section__contant-list">
+                        <ul class="section__content-list">
 
-                            <li class="section__contant-item">
-                                <p class="contant__text">
+                            <li class="section__content-item">
+                                <p class="content__text">
                                     Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.
                                 </p>
             
@@ -196,15 +196,15 @@
             
                             </li>
 
-                            <li class="section__contant-item">
+                            <li class="section__content-item">
             
-                                <p class="contant__text">
-                                    В соответствии со вторым принципом: последний <span class="contant__text contant__text_style_italic
-                                    ">margin</span> обнуляется, а нижний отступ задаётся через <span class="contant__text contant__text_style_italic
-                                    ">padding</span> для <span class="contant__text contant__text_style_italic
-                                    ">section</span>. Я чаще всего задаю <span class="contant__text contant__text_style_italic
-                                    ">padding</span> для секции с обоих сторон, если расстояние между секциями 100px задаю секциям <span class="contant__text contant__text_style_italic
-                                    ">padding-top:50px</span> и <span class="contant__text contant__text_style_italic
+                                <p class="content__text">
+                                    В соответствии со вторым принципом: последний <span class="content__text content__text_style_italic
+                                    ">margin</span> обнуляется, а нижний отступ задаётся через <span class="content__text content__text_style_italic
+                                    ">padding</span> для <span class="content__text content__text_style_italic
+                                    ">section</span>. Я чаще всего задаю <span class="content__text content__text_style_italic
+                                    ">padding</span> для секции с обоих сторон, если расстояние между секциями 100px задаю секциям <span class="content__text content__text_style_italic
+                                    ">padding-top:50px</span> и <span class="content__text content__text_style_italic
                                     ">padding-bottom:50px</span>.
                                 </p>
 
@@ -217,9 +217,9 @@
             
                             </li>
             
-                            <li class="section__contant-item">
+                            <li class="section__content-item">
             
-                                    <p class="contant__text">
+                                    <p class="content__text">
                                         Для большего понимания рассмотрим другой пример, который часто встречается на практике:
                                     </p>
                                     <img class="section__img" src="./img/image12.jpg" alt="">
@@ -227,17 +227,17 @@
             
                             </li>
 
-                            <li class="section__contant-item">
+                            <li class="section__content-item">
             
-                                    <p class="contant__text">
+                                    <p class="content__text">
                                         Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню задаются так:
                                     </p>
                                     <img class="section__img" src="./img/image14.jpg" alt="">
                             </li>
 
-                            <li class="section__contant-item">
+                            <li class="section__content-item">
             
-                                    <p class="contant__text">
+                                    <p class="content__text">
                                         Советую использовать псевдоклассы :last-child чаще других, например так:
                                     </p>
                                     <img class="section__img" src="./img/image15.jpg" alt="">
@@ -268,7 +268,7 @@
                                     последнему элементу группы отступ всегда обнуляем
                             </li>
                         </ul>
-                        <p class="contant__text">
+                        <p class="content__text">
                             Конечно бывают исключения. Ведь макеты бывают различной сложности. Иногда базовые принципы приходится нарушать в угоду дизайнерского решения или простоты вёрстки. Но для этого эти принципы необходимо хорошо знать.
                         </p>
             
